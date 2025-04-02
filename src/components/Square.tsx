@@ -1,11 +1,11 @@
 import React from 'react';
-import { Piece as PieceType } from '../types';
+import { Piece } from '../types';
 import './Square.css';
 
 interface SquareProps {
   isLight: boolean;
   isSelected: boolean;
-  piece: PieceType | null;
+  piece: Piece | null;
   onClick: () => void;
 }
 
