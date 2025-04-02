@@ -1,0 +1,20 @@
+.chess-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-turn {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 8px solid #865942;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}

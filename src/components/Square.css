@@ -1,0 +1,38 @@
+.square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.light {
+  background-color: #f0d9b5;
+}
+
+.dark {
+  background-color: #b58863;
+}
+
+.selected {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.piece {
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  user-select: none;
+}
+
+.white {
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+}
+
+.black {
+  color: #000;
+  text-shadow: 0 0 1px #fff;
+}
