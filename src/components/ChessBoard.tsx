@@ -5,7 +5,7 @@ import { initialBoardState, isValidMove } from '../utils/chess';
 import './ChessBoard.css';
 
 const ChessBoard: React.FC = () => {
-  const [board, setBoard] = useState<Piece[][]>(initialBoardState());
+  const [board, setBoard] = useState<(Piece | null)[][]>(initialBoardState());
   const [selectedPiece, setSelectedPiece] = useState<Position | null>(null);
   const [currentPlayer, setCurrentPlayer] = useState<'white' | 'black'>('white');
 
