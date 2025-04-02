@@ -1,6 +1,7 @@
 {
   "name": "react-chess",
   "version": "0.1.0",
+  "homepage": "https://jayaagarwal1610.github.io/react-app-1743603085007"
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -9,7 +10,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
